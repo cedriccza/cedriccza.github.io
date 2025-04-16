@@ -8,14 +8,6 @@
   margin-top: 20px;
 }
 
-
-
-
-
-
-
-
-
 body {
   display: flex;
   justify-content: center;
@@ -83,6 +75,9 @@ a {
 }
 .menu-hover-fill li:nth-child(6) {
   --menu-link-active-color: var(--primary-color);
+}
+.menu-hover-fill li:nth-child(7) {
+  --menu-link-active-color: var(--info-color);
 }
 .menu-hover-fill li:hover::before {
   left: calc(100% + 1rem);
@@ -178,9 +173,7 @@ a {
 
 .df {
   background: #000000;
-
   font-family: JetBrains Mono, monospace;
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -212,7 +205,7 @@ a {
 .closure::before {
   content: '';
   position: absolute;
-  height: 25vmin;
+  height: 20vmin;
   width: 40vmin;
   background: #000000;
   transform: translate(-40vmin, 5vmin);

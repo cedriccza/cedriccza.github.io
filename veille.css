@@ -1,3 +1,8 @@
+* {
+    background-color: #000000;
+     color : white ;
+ }
+
 #titre {
     text-align: center;
     font-family: "Playwrite IN", serif;
@@ -5,87 +10,19 @@
 	color: #0080FF;
     }
 
-    @import url('https://fonts.googleapis.com/css?family=PT+Sans');
+ #nom {
+        text-align: center;
+        font-size: 3rem ; 
+ }
 
-body {
-	background-color: #000000;
-}
-
-.social {
-	margin: 0 auto;
-	width: 500px;
-	text-align: center;
-	padding: 50px;
-}
-
-.social h2 {
-	color: #86a5d6;
-	font-size: 40px;
-	font-family: 'PT Sans', sans-serif;
-}
-
-[class^="icon-btn"] /*.icon-btn*/ {
-	height: 75px;
-	width: 75px;
-	border: 0;
-	color: #fff;
-	cursor: pointer;
-	font-size: 40px;
-	line-height: 75px;
-	transition: ease-in-out .3s;
-	border-radius: 50px;
-	margin-left: 10px;
-	background-color: #fff;
-}
-
-.twitter {
-	color: #4099FF;
-}
-
-.facebook {
-	color: #3B5998;
-}
-.google-plus {
-	color: #DB5A3C;
-}
-
-.instagram {
-	color: #5C3D2E;
-}
-
-.github {
-	color: #4183C4;
-}
-
-.icon-btn:hover {
-	transform: scale(1.10);	
-	color: #FFFFFF;
-}
-
-.twitter:hover {
-	background-color: #4099FF;	
-}
-
-.facebook:hover {
-	background-color: #3B5998;	
-}
-
-.google-plus:hover {
-	background-color: #DB5A3C;	
-}
-
-.instagram:hover {
-	background-color: #5C3D2E;	
-}
-
-.github:hover {
-	background-color: #4183C4;	
-   
-}
-
-a.link {
-	color: inherit;	
-}
+ #p1 {
+    font-family: "Libre Baskerville", serif;
+  
+    font-style: italic;
+    text-align: center;
+    font-size: 2rem;
+  
+  }
 
 /* bouton retour */
 
@@ -132,8 +69,9 @@ a.link {
   }
   
   /* FIn Bouton retour */ 
+  
 
-/*Footer */ 
+   /*Footer */ 
 
 
 #one
@@ -344,4 +282,5 @@ footer {
         padding: 10px 0;
         font-size: 14px;
     }
+
 

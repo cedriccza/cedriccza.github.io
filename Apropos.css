@@ -1,6 +1,6 @@
 
 * {
-   background-color: #131010;
+   background-color: #000000;
     color : white ;
 }
 
@@ -8,6 +8,7 @@
 text-align: center;
 font-family: "Playwrite IN", serif;
 font-size: 4rem;
+color: #61afef;
 }
 #pdp {
   float : left;
@@ -23,13 +24,14 @@ font-size: 4rem;
     font-weight: 400;
     font-style: italic;
     float: center;
+    
 }
 #titre2 {
   font-family: "Libre Baskerville", serif;
   font-weight: 400;
   font-style: italic;
   float: center;
-  color: #007BFF;
+  color: #61afef;
 }
 #p1 {
   font-family: "Libre Baskerville", serif;
@@ -48,6 +50,51 @@ font-size: 4rem;
     text-align: center;
     font-size: 3rem ; 
 }
+/* bouton retour */
+
+.center-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.button {
+  position: relative;
+  background-color: #61afef;
+  border: none;
+  font-size: 28px;
+  color: #FFFFFF;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.button:after {
+  content: "";
+  background: #f1f1f1;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px !important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+}
+
+.button:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+}
+
+/* FIn Bouton retour */ 
 
 /* Bouton CV */
 .cv {
@@ -64,7 +111,7 @@ font-size: 4rem;
   padding: 15px 30px;
   font-size: 18px;
   color: white;
-  background-color: #007BFF;
+  background-color: #61afef;
   border: none;
   border-radius: 8px;
   cursor: pointer;
@@ -79,69 +126,7 @@ font-size: 4rem;
  /*  Fin Bouton CV */
 
 
- /*  Navbar */
-
- nav {
-  width: 80%;
-  margin: 0 auto;
-  background: #131010;
-  padding: 50px 0;
-  box-shadow: 0px 5px 0px #dedede;
-}
-
-/* By Dominik Biedebach @domobch */
-nav ul {
-  list-style: none;
-  text-align: center;
-}
-nav ul li {
-  display: inline-block;
-}
-nav ul li a {
-  display: block;
-  padding: 15px;
-  text-decoration: none;
-  color: #aaa;
-  font-weight: 800;
-  text-transform: uppercase;
-  margin: 0 10px;
-}
-nav ul li a,
-nav ul li a:after,
-nav ul li a:before {
-  transition: all .5s;
-}
-nav ul li a:hover {
-  color: white;
-}
-
-
-/* stroke */
-nav.stroke ul li a,
-nav.fill ul li a {
-  position: relative;
-}
-nav.stroke ul li a:after,
-nav.fill ul li a:after {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
-  width: 0%;
-  content: '.';
-  color: transparent;
-  background: #333;
-  height: 1px;
-}
-nav.stroke ul li a:hover:after {
-  width: 100%;
-}
-
-/* Fin Navbar */
-
  /*Footer */ 
-
 
 #one
 {

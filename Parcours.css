@@ -1,5 +1,5 @@
 * {
-    background-color: #131010;
+    background-color: #000000;
      color : white ;
  }
 
@@ -7,6 +7,7 @@
     text-align: center;
     font-family: "Playwrite IN", serif;
     font-size: 4rem;
+	color: #0080FF;
     }
 
  #nom {
@@ -23,70 +24,52 @@
   
   }
 
-/*  Navbar */
+/* bouton retour */
 
-nav {
-    width: 80%;
-    margin: 0 auto;
-    background: #131010;
-    padding: 50px 0;
-    box-shadow: 0px 5px 0px #dedede;
-  }
-  
-  /* By Dominik Biedebach @domobch */
-  nav ul {
-    list-style: none;
-    text-align: center;
-  }
-  nav ul li {
-    display: inline-block;
-  }
-  nav ul li a {
-    display: block;
-    padding: 15px;
-    text-decoration: none;
-    color: #aaa;
-    font-weight: 800;
-    text-transform: uppercase;
-    margin: 0 10px;
-  }
-  nav ul li a,
-  nav ul li a:after,
-  nav ul li a:before {
-    transition: all .5s;
-  }
-  nav ul li a:hover {
-    color: white;
+.center-wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
   }
   
   
-  /* stroke */
-  nav.stroke ul li a,
-  nav.fill ul li a {
-    position: relative;
-  }
-  nav.stroke ul li a:after,
-  nav.fill ul li a:after {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-    width: 0%;
-    content: '.';
-    color: transparent;
-    background: #333;
-    height: 1px;
-  }
-  nav.stroke ul li a:hover:after {
-    width: 100%;
+  .button {
+	position: relative;
+	background-color: #0080FF;
+	border: none;
+	font-size: 28px;
+	color: #FFFFFF;
+	padding: 20px;
+	width: 200px;
+	text-align: center;
+	transition-duration: 0.4s;
+	text-decoration: none;
+	overflow: hidden;
+	cursor: pointer;
   }
   
-  /* Fin Navbar */
-
-
-
-
+  .button:after {
+	content: "";
+	background: #f1f1f1;
+	display: block;
+	position: absolute;
+	padding-top: 300%;
+	padding-left: 350%;
+	margin-left: -20px !important;
+	margin-top: -120%;
+	opacity: 0;
+	transition: all 0.8s
+  }
+  
+  .button:active:after {
+	padding: 0;
+	margin: 0;
+	opacity: 1;
+	transition: 0s
+  }
+  
+  /* FIn Bouton retour */ 
+  
 
    /*Footer */ 
 
