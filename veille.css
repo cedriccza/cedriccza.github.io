@@ -10,9 +10,29 @@
 	color: #0080FF;
     }
 
- #nom {
+    #titre2 {
+        font-family: "Libre Baskerville", serif;
+        font-weight: 400;
+        font-style: italic;
+        float: center;
+        color: #61afef;
+      }
+
+
+      #nom {
         text-align: center;
         font-size: 3rem ; 
+    }
+
+ #p2 {
+       font-size: 20pt;
+     }
+   
+
+ #typev {
+        text-align: center;
+        font-size: 3rem ; 
+        color: #61afef;
  }
 
  #p1 {
