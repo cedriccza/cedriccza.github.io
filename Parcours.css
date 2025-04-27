@@ -374,3 +374,107 @@ h1,h2,h4,h5,h6 {
 
 			}
 				
+
+
+
+
+
+			/*Timeline  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#a2 {
+	color: #ffffcc;
+	text-decoration: none;
+	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+	-o-transition: 0.5s;
+	-ms-transition: 0.5s;
+	transition: 0.5s;
+}
+	#a2:hover,
+	#a2.selected {
+		color: #ffcc00;
+	}
+
+#h1,#h2,h4,h5,h6 {
+	text-align: center;
+	color: #ccc;
+	text-shadow: #000 1px 1px 2px;
+	margin-bottom: 5px;
+}
+	#h1 {
+		font-size: 18px;
+	}
+	#h2 {
+		font-size: 14px;
+	}
+.sociales {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+
+
+	#timeline2 {
+		width: 500px;
+		height: 600px;
+		overflow: hidden;
+		margin: 40px auto;
+		position: relative;
+		background: url('http://www.csslab.cl/ejemplos/timelinr/latest/images/dot.gif') 3px top repeat-y;
+	}
+		#dates2 {
+			width: 100px;
+			height: 600px;
+			overflow: hidden;
+			float: left;
+		}
+			#dates2 li {
+				list-style: none;
+				width: 100px;
+				height: 100px;
+				line-height: 100px;
+				font-size: 24px;
+				padding-left: 10px;
+				background: url('http://www.csslab.cl/ejemplos/timelinr/latest/images/biggerdot.png') left center no-repeat;
+			}
+				#dates2 a {
+					line-height: 38px;
+					padding-bottom: 10px;
+				}
+				#dates2 .selected {
+			        font-size: 38px;
+				}
+		
+		#issues2 {
+			width: 400px;
+			height: 600px;
+			overflow: hidden;
+			float: left;
+		}	
+			#issues2 li {
+				max-width: 300px;  width: 400px;
+				height: 600px;
+				list-style: none;
+         text-align: center; 
+
+			}
+
+
+#typep {
+	text-align: center;
+	font-size: 3rem ; 
+	color: #0080FF;
+ }
